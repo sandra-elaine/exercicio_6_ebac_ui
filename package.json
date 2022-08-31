@@ -1,0 +1,23 @@
+{
+  "name": "exercicio_6_ebac_ui",
+  "version": "1.0.0",
+  "description": "Teste automatizado com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandra-elaine/exercicio_6_ebac_ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandra-elaine/exercicio_6_ebac_ui/issues"
+  },
+  "homepage": "https://github.com/sandra-elaine/exercicio_6_ebac_ui#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
