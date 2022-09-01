@@ -19,7 +19,7 @@ describe('Funcionalidade Página de Produtos', () => {
             .contains('Ajax Full-Zip Sweatshirt')
             .click()
     });
-    it.only('Deve adicionar um produto no carrinho', () => {
+    it('Deve adicionar um produto no carrinho', () => {
         var quantidade = 2
 
         cy.get('[class="product-block grid"]')
