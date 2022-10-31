@@ -4,8 +4,12 @@
   "description": "Teste automatizado com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open" ,
+    "cy:run": "npx cypress run",
+    "cy: dashboard": "",
+    "cy:report": ""
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sandra-elaine/exercicio_6_ebac_ui.git"
@@ -18,7 +22,7 @@
   },
   "homepage": "https://github.com/sandra-elaine/exercicio_6_ebac_ui#readme",
   "devDependencies": {
-    "cypress": "^10.7.0"
+    "cypress": "^10.11.0"
   },
   "dependencies": {
     "faker": "^5.5.3"
